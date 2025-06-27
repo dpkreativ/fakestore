@@ -9,7 +9,7 @@ export default function Header() {
       <nav>
         <a href="/">Home</a>
         <a href="/products">Products</a>
-        <Button />
+        <Button>Sign In</Button>
       </nav>
     </header>
   );
