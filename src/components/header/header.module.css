@@ -1,0 +1,17 @@
+.header {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
