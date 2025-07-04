@@ -1,3 +1,13 @@
+import ProductCard from "../components/cards/product-card";
+
 export default function Products() {
-  return <main>All products...</main>;
+  return (
+    <main>
+      <h2>All products</h2>
+
+      <section>
+        <ProductCard />
+      </section>
+    </main>
+  );
 }
