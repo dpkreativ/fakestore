@@ -26,3 +26,9 @@ main {
   filter: invert(100%);
   width: 25rem;
 }
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}

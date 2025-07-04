@@ -5,7 +5,9 @@ export default function Products() {
     <main>
       <h2>All products</h2>
 
-      <section>
+      <section className="product-list">
+        <ProductCard />
+        <ProductCard />
         <ProductCard />
       </section>
     </main>
